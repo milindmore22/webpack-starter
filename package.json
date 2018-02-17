@@ -1,0 +1,40 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A full featured asset bundleer using webpack for WordPress Themes",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "Webpack",
+    "WordPress",
+    "theme",
+    "Assests"
+  ],
+  "author": "milindmore22",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.18.0",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "stylelint": "^8.4.0",
+    "stylelint-webpack-plugin": "^0.10.2",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "eslint-config-wordpress": "^2.0.0",
+    "stylelint-config-standard": "^18.0.0"
+  }
+}
